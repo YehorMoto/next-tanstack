@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply h-screen min-h-full w-screen min-w-full p-8;
+  }
+
+  .pill-icon {
+    @apply h-3 w-3 text-middle-grey;
+  }
+}

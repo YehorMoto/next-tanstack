@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@components": ["./app/components"],
+      "@components/*": ["./app/components/*"],
+      "@constants": ["app/constants"],
+      "@constants/*": ["app/constants/*"],
+      "@hooks": ["./app/hooks"],
+      "@providers": ["./app/providers"],
+      "@styles": ["./app/styles"],
+      "@mocks": ["./app/mocks"],
+      "@mocks/*": ["./app/mocks/*"],
+      "@types": ["app/types"],
+      "@types/*": ["app/types/*"],
+      "@utils": ["./app/utils"]
+    },
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "tailwind.config.js"
+  ],
+  "exclude": ["node_modules"]
+}
