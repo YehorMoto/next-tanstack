@@ -2,11 +2,11 @@
 
 Showcase of integration TansStack Table and Query API with Next.js app-directory application.
 
-You can find deployed version at: link
+You can find deployed version at: https://next-tanstack-dusky.vercel.app/
 
 And look at the screencast:
 
-link
+https://github.com/YehorMoto/next-tanstack/assets/127110377/921b05ec-86df-4862-93d1-39ddec168be1
 
 ## Get Started
 
