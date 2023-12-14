@@ -6,7 +6,8 @@ You can find deployed version at: https://next-tanstack-dusky.vercel.app/
 
 And look at the screencast:
 
-https://github.com/YehorMoto/next-tanstack/assets/127110377/921b05ec-86df-4862-93d1-39ddec168be1
+https://github.com/YehorMoto/next-tanstack/assets/127110377/63e3a3e6-b447-4ba0-8add-55a5e2550123
+
 
 ## Get Started
 
